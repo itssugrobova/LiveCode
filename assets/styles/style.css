@@ -1,1 +1,168 @@
+body {
+  font-family: "Gothic A1", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 15px 0 15px 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  margin: 0;
+  font-size: 36px;
+}
+h3 {
+  height: 200px;
+  position: absolute;
+  left: 5%;
+}
+h4 {
+  text-align: center;
+  color: rgba(34, 53, 111, 0.5);
+  font-size: 16px;
+}
+ul {
+  height: 200px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul li {
+  text-align: center;
 
+  font-size: 32px;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1,
+nav a,
+.description,
+.third article {
+  color: #22356f;
+}
+ul li,
+.mail,
+.whoiam,
+.second {
+  color: #ffffff;
+}
+nav a {
+  font-size: 14px;
+  padding: 10px;
+}
+.title {
+  color: #62d0df;
+  font-size: 24px;
+}
+
+.homelink {
+  border-bottom: 2px solid;
+}
+.mail {
+  width: 10vw;
+  height: 50px;
+  background-color: #62d0df;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first,
+header {
+  background-color: #f4f9e2;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 34vw;
+  height: 400px;
+  justify-content: space-around;
+  padding: 10% 10% 3% 11%;
+}
+
+.description {
+  font-size: 24px;
+}
+.questions {
+  display: flex;
+  justify-content: flex-start;
+}
+.questions a {
+  padding: 20px;
+}
+.whoiam {
+  background: #f9b640;
+}
+.whatdoido {
+  color: #fab63e;
+}
+.interview {
+  height: 80%;
+  padding: 5% 0 5% 0;
+}
+.first {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.second {
+  background-color: #62d0df;
+  height: 400px;
+  display: flex;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10%;
+  font-size: 20px;
+}
+
+.third {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.third article {
+  width: 40vw;
+  height: 200px;
+  font-size: 20px;
+}
+
+.help1 {
+  background: #ffe2de;
+}
+.help2 {
+  background: #c4e769;
+}
+.help3 {
+  background: #62d0df;
+}
+.help4 {
+  background: #0052c1;
+}
+.line {
+  height: 40px;
+  width: 70%;
+  border-bottom: 2px solid #ffffff;
+}
