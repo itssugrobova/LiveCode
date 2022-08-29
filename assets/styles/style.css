@@ -31,6 +31,11 @@ h4 {
   color: rgba(34, 53, 111, 0.5);
   font-size: 16px;
 }
+nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
 ul {
   height: 200px;
   padding: 0;
@@ -40,9 +45,7 @@ ul {
 ul li {
   width: 25%;
   text-align: center;
-
   font-size: 32px;
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -62,7 +65,6 @@ ul li,
 }
 nav a {
   font-size: 14px;
-  padding: 10px;
 }
 .title {
   color: #62d0df;
