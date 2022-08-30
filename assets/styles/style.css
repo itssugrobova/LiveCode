@@ -55,6 +55,8 @@ ul li {
   flex-wrap: wrap;
   align-items: center;
 }
+button .whoiam {
+}
 h1,
 nav a,
 .description,
@@ -90,7 +92,8 @@ nav a {
   justify-content: center;
 }
 .first,
-header {
+header,
+.whatdoido {
   background-color: #f4f9e2;
 }
 
@@ -111,8 +114,13 @@ header {
   display: flex;
   justify-content: flex-start;
 }
-.questions a {
-  padding: 20px;
+.questions button {
+  line-height: 50px;
+  margin-right: 20px;
+  border: none;
+}
+.questions button:hover {
+  text-decoration: underline;
 }
 .whoiam {
   background: #f9b640;
