@@ -1,5 +1,5 @@
 body {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 header {
   display: flex;
@@ -7,6 +7,9 @@ header {
   align-items: center;
   width: 100vw;
   padding: 15px 0 15px 0;
+}
+span {
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -36,6 +39,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
 ul {
   height: 200px;
   padding: 0;
@@ -97,7 +101,7 @@ header {
   width: 34vw;
   height: 400px;
   justify-content: space-around;
-  padding: 10% 10% 3% 11%;
+  margin: 10% 10% 3% 11%;
 }
 
 .description {
@@ -136,7 +140,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10%;
+  margin: 5% 10% 5% 10%;
   font-size: 20px;
 }
 
